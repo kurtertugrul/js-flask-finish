@@ -1,0 +1,65 @@
+/* Style for user-info container */
+#user-info {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+/* Style for headings */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for user details */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style for strong text */
+strong {
+    font-weight: bold;
+}
+
+/* Style for edit button */
+#editPostButton {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}

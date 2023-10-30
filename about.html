@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keşfet</title>
+    <link rel="stylesheet" href="/css/user_info.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="main.html">Anasayfa<span class="sr-only"></span></a>
+            </li> -->
+            <li class="nav-item active">
+              <a class="nav-link" href="kesfet.html">Keşfet<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profil</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="olustur.html">Oluştur<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Hakkımda</a>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="logout()">Çıkış Yap</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1 style="text-align: center;">Hakkımda</h1>
+      
+      <div id="user-info">
+        <!-- <h2>Kullanıcı Bilgileri</h2> -->
+        <p><strong>Ad:</strong> <span id="user-name"></span></p>
+        <p><strong>Soyad:</strong> <span id="user-surname"></span></p>
+        <p><strong>Doğum Günü:</strong> <span id="user-birthday"></span></p>
+        <p><strong>Cinsiyet:</strong> <span id="user-gender"></span></p>
+        <p><strong>Telefon Numarası:</strong> <span id="user-phonenumber"></span></p>
+        <p><strong>Email:</strong> <span id="user-email"></span></p>
+        <p><strong>Kullanıcı Adı:</strong> <span id="user-username"></span></p>
+    </div>
+    
+    <!-- <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="editModalClose">&times;</span>
+            <h2 style="text-align: center;">Kullanıcı Bilgilerini Düzenle</h2>
+            <input type="hidden" id="editUserId">
+            <label for="editUserName">Ad</label>
+            <input type="text" id="editUserName">
+            <label for="editUserSurname">Soyad</label>
+            <input type="text" id="editUserSurname">
+            <label for="editUserBirthday">Doğum Günü</label>
+            <input type="text" id="editUserBirthday">
+            <label for="editUserGender">Cinsiyet</label>
+            <input type="text" id="editUserGender">
+            <label for="editUserPhonenumber">Telefon Numarası</label>
+            <input type="text" id="editUserPhonenumber">
+            <label for="editUserEmail">Email</label>
+            <input type="text" id="editUserEmail">
+            <button id="editUserButton" style="border-radius: 200px;">Bilgileri Güncelle</button>
+        </div>
+    </div> -->
+    
+    
+      
+      
+
+
+
+      
+
+
+
+
+    
+    <script>
+      function logout(){
+        localStorage.removeItem("username")
+        window.location = "/login.html"
+
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="user_info.js"></script>
+    </body>
+</html>
+<body>
+
+    
